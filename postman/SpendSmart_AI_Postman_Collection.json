@@ -1,0 +1,141 @@
+{
+  "info": {
+    "name": "SpendSmart AI - MongoDB & Full-Stack API Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "POST /api/auth/register",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:5000/api/auth/register"
+      }
+    },
+    {
+      "name": "POST /api/auth/login",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:5000/api/auth/login"
+      }
+    },
+    {
+      "name": "GET /api/transactions",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/transactions"
+      }
+    },
+    {
+      "name": "POST /api/transactions",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:5000/api/transactions"
+      }
+    },
+    {
+      "name": "PUT /api/transactions/:id",
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:5000/api/transactions/:id"
+      }
+    },
+    {
+      "name": "DELETE /api/transactions/:id",
+      "request": {
+        "method": "DELETE",
+        "url": "http://localhost:5000/api/transactions/:id"
+      }
+    },
+    {
+      "name": "GET /api/budgets/:month",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/budgets/2026-11"
+      }
+    },
+    {
+      "name": "PUT /api/budgets/:month",
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:5000/api/budgets/2026-11"
+      }
+    },
+    {
+      "name": "GET /api/insights",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/insights"
+      }
+    },
+    {
+      "name": "POST /api/insights",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:5000/api/insights"
+      }
+    },
+    {
+      "name": "PATCH /api/insights/:id/resolve",
+      "request": {
+        "method": "PATCH",
+        "url": "http://localhost:5000/api/insights/:id/resolve"
+      }
+    },
+    {
+      "name": "DELETE /api/insights/:id",
+      "request": {
+        "method": "DELETE",
+        "url": "http://localhost:5000/api/insights/:id"
+      }
+    },
+    {
+      "name": "GET /api/mongo-analytics/pipeline/monthly-cashflow",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/mongo-analytics/pipeline/monthly-cashflow"
+      }
+    },
+    {
+      "name": "GET /api/mongo-analytics/pipeline/category-vs-budget",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/mongo-analytics/pipeline/category-vs-budget?month=2026-11"
+      }
+    },
+    {
+      "name": "GET /api/mongo-analytics/pipeline/anomaly-audit",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/mongo-analytics/pipeline/anomaly-audit"
+      }
+    },
+    {
+      "name": "GET /api/mongo-analytics/pipeline/payment-methods",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/mongo-analytics/pipeline/payment-methods"
+      }
+    },
+    {
+      "name": "GET /api/mongo-analytics/pipeline/user-360-rollup",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/mongo-analytics/pipeline/user-360-rollup"
+      }
+    },
+    {
+      "name": "GET /api/mongo-analytics/indexes/explain",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/mongo-analytics/indexes/explain"
+      }
+    },
+    {
+      "name": "POST http://localhost:5001/api/predict-expenses",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:5001/api/predict-expenses"
+      }
+    }
+  ]
+}

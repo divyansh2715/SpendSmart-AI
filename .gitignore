@@ -1,0 +1,33 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Build files
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE and operating system
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Private keys
+*.pem
+*.key
